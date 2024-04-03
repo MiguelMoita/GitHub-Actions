@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Flutter Setup
-        uses: subosito/flutter-action@v4
+        uses: subosito/flutter-action@v2
         with:
           channel: stable
           flutter: cinescope/pubspec.yaml
@@ -28,7 +28,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Flutter Setup
-        uses: subosito/flutter-action@v4
+        uses: subosito/flutter-action@v2
         with:
           channel: stable
           flutter: cinescope/pubspec.yaml
