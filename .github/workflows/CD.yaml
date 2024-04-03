@@ -27,7 +27,7 @@ jobs:
       - name: Release
         uses: softprops/action-gh-release@v2
         with:
-          tag: ${{  }}
+          tag: ${{steps.tag_version.outputs.new_tag}}
           files: |
             build/app/outputs/apk/relase/app-release.apk
 
